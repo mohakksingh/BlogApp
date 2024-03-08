@@ -48,7 +48,7 @@ export function Avatar({
   size = "small",
 }: {
   name: string;
-  size: "small" | "big";
+  size?: "small" | "big";
 }) {
   return (
     <div
